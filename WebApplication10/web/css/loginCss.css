@@ -1,0 +1,10 @@
+body{
+    background: rgb(23,34,55);
+}
+.loginBackground{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to right,rgb(0,0,0,0.7),rgb(0,0,0,0.5)), url("../img/car30.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

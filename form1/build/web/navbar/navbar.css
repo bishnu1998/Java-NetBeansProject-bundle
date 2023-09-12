@@ -1,0 +1,54 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+          background-image:url("../image1.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+       }
+.main-menu{
+   background-color: rgb(140,140,194);
+   text-align: center;
+}
+.main-menu ul{
+   display: inline-flex;
+   list-style: none;
+   color: bisque;
+}
+.main-menu ul li{
+   widows: 100%;
+   margin: 15px;
+   padding: 15px;
+   font-size: 20px;
+}
+.main-menu ul li:hover{
+   background-color: rgb(210,30,114);
+   border-radius: 10px;
+}
+.main-menu ul li a i:hover{
+   color: whitesmoke;
+}
+.sub-menu ul{
+   display: none;
+}
+.main-menu ul li:hover .sub-menu{
+   display: block;
+   background-color: rgb(157, 177, 157);
+   position: absolute;
+   padding: 15px;
+   margin-left: -15px;
+   text-align: left;
+   border-radius: 8px;
+}
+.main-menu ul li:hover .sub-menu ul{
+   display: block;
+   margin: 10px;
+}
+.main-menu ul li:hover .sub-menu ul li a i{
+   color: white;
+}
+.main-menu ul li:hover .sub-menu ul li a i:hover{
+   color: black;
+}

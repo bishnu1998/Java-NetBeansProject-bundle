@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.primary-background{
+    background-color: #90caf9!important;
+}
+.banner{
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right, rgb(0,0,0,1),rgb(0,0,0,0.5)), url("../img/car62.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.h1-100{
+    height: 100%;
+    width: 100%;
+}
+.message{
+    background: #f06292;
+}
+ul{  
+    list-style: none;
+}
+.register{
+    
+    background: linear-gradient(to right,rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url("../img/car30.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

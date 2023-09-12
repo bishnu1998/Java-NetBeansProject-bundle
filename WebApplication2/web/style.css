@@ -1,0 +1,56 @@
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-black{
+    color: blue;
+}
+
+
+
+body{
+    margin: 0%;
+}
+
+nav{
+    padding: 0 2rem;
+    position: relative;
+    justify-content: space-between;
+    height: 0rem;
+    background-color: blue;
+
+}
+nav .nav .form-control{
+    display: block;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+nav .nav-brand a{
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+nav .nav-items{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav .nav-items .nav-link{
+    padding: 1.3rem 1rem;
+    font-size: 1.1rem;
+}
+nav .nav-items .nav-link:hover{
+    background: var(--bg-color);
+}
+nav .nav-items .nav-link:hover a{
+    color: white;
+}
+

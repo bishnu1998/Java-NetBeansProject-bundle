@@ -1,0 +1,12 @@
+body{
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right, rgb(0,0,0,1),rgb(0,0,0,0.5)), url("../img/car62.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.loader{
+    margin-top: 10px;
+    display: none;
+}
